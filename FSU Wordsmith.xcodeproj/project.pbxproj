@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		989E5EAA1E5BA8160035F33D /* main_ws.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 989E5EA91E5BA8160035F33D /* main_ws.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		989E5E931E5BA3560035F33D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,72 @@
 
 /* Begin PBXFileReference section */
 		989E5E951E5BA3560035F33D /* FSU Wordsmith */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Wordsmith"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989E5E9F1E5BA8160035F33D /* cleanup.eg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanup.eg; path = ../cleanup.eg; sourceTree = "<group>"; };
+		989E5EA01E5BA8160035F33D /* cleanup.eg.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanup.eg.com; path = ../cleanup.eg.com; sourceTree = "<group>"; };
+		989E5EA11E5BA8160035F33D /* cleanup.rulz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanup.rulz; path = ../cleanup.rulz; sourceTree = "<group>"; };
+		989E5EA21E5BA8160035F33D /* data0.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data0.in; path = ../data0.in; sourceTree = "<group>"; };
+		989E5EA31E5BA8160035F33D /* data1.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data1.in; path = ../data1.in; sourceTree = "<group>"; };
+		989E5EA41E5BA8160035F33D /* data2.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data2.in; path = ../data2.in; sourceTree = "<group>"; };
+		989E5EA51E5BA8160035F33D /* data3.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data3.in; path = ../data3.in; sourceTree = "<group>"; };
+		989E5EA61E5BA8160035F33D /* data4.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data4.in; path = ../data4.in; sourceTree = "<group>"; };
+		989E5EA71E5BA8160035F33D /* data5.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data5.in; path = ../data5.in; sourceTree = "<group>"; };
+		989E5EA81E5BA8160035F33D /* data6.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data6.in; path = ../data6.in; sourceTree = "<group>"; };
+		989E5EA91E5BA8160035F33D /* main_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main_ws.cpp; path = ../main_ws.cpp; sourceTree = "<group>"; };
+		989E5EAC1E5BA86C0035F33D /* table1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = table1; path = ../table1; sourceTree = "<group>"; };
+		989E5EAD1E5BA86C0035F33D /* table2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = table2; path = ../table2; sourceTree = "<group>"; };
+		989E5EAE1E5BA86C0035F33D /* table3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = table3; path = ../table3; sourceTree = "<group>"; };
+		989E5EAF1E5BA86C0035F33D /* table4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = table4; path = ../table4; sourceTree = "<group>"; };
+		989E5EB01E5BA8900035F33D /* ansicodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ansicodes.h; sourceTree = "<group>"; };
+		989E5EB11E5BA8900035F33D /* CHAR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAR.h; sourceTree = "<group>"; };
+		989E5EB21E5BA8900035F33D /* compare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
+		989E5EB31E5BA8900035F33D /* debug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		989E5EB41E5BA8900035F33D /* deque.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = deque.cpp; sourceTree = "<group>"; };
+		989E5EB51E5BA8900035F33D /* deque.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deque.h; sourceTree = "<group>"; };
+		989E5EB61E5BA8900035F33D /* entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entry.h; sourceTree = "<group>"; };
+		989E5EB71E5BA8900035F33D /* fdeque.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fdeque.cpp; sourceTree = "<group>"; };
+		989E5EB81E5BA8900035F33D /* fgss.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fgss.cpp; sourceTree = "<group>"; };
+		989E5EB91E5BA8900035F33D /* finteger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = finteger.cpp; sourceTree = "<group>"; };
+		989E5EBA1E5BA8900035F33D /* flist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flist.cpp; sourceTree = "<group>"; };
+		989E5EBB1E5BA8900035F33D /* flist2c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = flist2c.cpp; sourceTree = "<group>"; };
+		989E5EBC1E5BA8900035F33D /* fqueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fqueue.cpp; sourceTree = "<group>"; };
+		989E5EBD1E5BA8900035F33D /* fstack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fstack.cpp; sourceTree = "<group>"; };
+		989E5EBE1E5BA8900035F33D /* ftimer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ftimer.cpp; sourceTree = "<group>"; };
+		989E5EBF1E5BA8900035F33D /* fvector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fvector.cpp; sourceTree = "<group>"; };
+		989E5EC01E5BA8900035F33D /* gbsearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gbsearch.h; sourceTree = "<group>"; };
+		989E5EC11E5BA8900035F33D /* genalg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = genalg.h; sourceTree = "<group>"; };
+		989E5EC21E5BA8900035F33D /* gheap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gheap.h; sourceTree = "<group>"; };
+		989E5EC31E5BA8900035F33D /* gsort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gsort.h; sourceTree = "<group>"; };
+		989E5EC41E5BA8900035F33D /* insert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insert.h; sourceTree = "<group>"; };
+		989E5EC51E5BA8900035F33D /* integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = integer.cpp; sourceTree = "<group>"; };
+		989E5EC61E5BA8900035F33D /* integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = integer.h; sourceTree = "<group>"; };
+		989E5EC71E5BA8900035F33D /* iostream.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = iostream.txt; sourceTree = "<group>"; };
+		989E5EC81E5BA8900035F33D /* list_macro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_macro.cpp; sourceTree = "<group>"; };
+		989E5EC91E5BA8900035F33D /* list_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list_sort.cpp; sourceTree = "<group>"; };
+		989E5ECA1E5BA8900035F33D /* list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
+		989E5ECB1E5BA8900035F33D /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		989E5ECC1E5BA8900035F33D /* list2c_macro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = list2c_macro.cpp; sourceTree = "<group>"; };
+		989E5ECD1E5BA8900035F33D /* mlist.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mlist.cpp; sourceTree = "<group>"; };
+		989E5ECE1E5BA8900035F33D /* mlist2c.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mlist2c.cpp; sourceTree = "<group>"; };
+		989E5ECF1E5BA8900035F33D /* olist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = olist.h; sourceTree = "<group>"; };
+		989E5ED01E5BA8900035F33D /* ovector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ovector.h; sourceTree = "<group>"; };
+		989E5ED11E5BA8900035F33D /* pair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pair.h; sourceTree = "<group>"; };
+		989E5ED21E5BA8900035F33D /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		989E5ED31E5BA8900035F33D /* rbsearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rbsearch.h; sourceTree = "<group>"; };
+		989E5ED41E5BA8900035F33D /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		989E5ED51E5BA8900035F33D /* require.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = require.h; sourceTree = "<group>"; };
+		989E5ED61E5BA8900035F33D /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		989E5ED71E5BA8900035F33D /* timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = timer.cpp; sourceTree = "<group>"; };
+		989E5ED81E5BA8900035F33D /* timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		989E5ED91E5BA8900035F33D /* vector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
+		989E5EDA1E5BA8900035F33D /* vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		989E5EDB1E5BA8900035F33D /* xran.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xran.cpp; sourceTree = "<group>"; };
+		989E5EDC1E5BA8900035F33D /* xran.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xran.h; sourceTree = "<group>"; };
+		989E5EDD1E5BA8900035F33D /* xranxstr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xranxstr.cpp; sourceTree = "<group>"; };
+		989E5EDE1E5BA8900035F33D /* xranxstr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xranxstr.h; sourceTree = "<group>"; };
+		989E5EDF1E5BA8900035F33D /* xstring.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = xstring.cpp; sourceTree = "<group>"; };
+		989E5EE01E5BA8900035F33D /* xstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xstring.h; sourceTree = "<group>"; };
+		989E5EE11E5BA8D10035F33D /* wordsmith.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = wordsmith.cpp; path = ../wordsmith.cpp; sourceTree = "<group>"; };
+		989E5EE21E5BA8D10035F33D /* wordsmith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wordsmith.h; path = ../wordsmith.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +106,7 @@
 		989E5E8C1E5BA3560035F33D = {
 			isa = PBXGroup;
 			children = (
+				989E5EAB1E5BA83D0035F33D /* Support Files */,
 				989E5E971E5BA3560035F33D /* FSU Wordsmith */,
 				989E5E961E5BA3560035F33D /* Products */,
 			);
@@ -52,8 +123,81 @@
 		989E5E971E5BA3560035F33D /* FSU Wordsmith */ = {
 			isa = PBXGroup;
 			children = (
+				989E5EE11E5BA8D10035F33D /* wordsmith.cpp */,
+				989E5EE21E5BA8D10035F33D /* wordsmith.h */,
+				989E5EA91E5BA8160035F33D /* main_ws.cpp */,
+				989E5EAC1E5BA86C0035F33D /* table1 */,
+				989E5EAD1E5BA86C0035F33D /* table2 */,
+				989E5EAE1E5BA86C0035F33D /* table3 */,
+				989E5EAF1E5BA86C0035F33D /* table4 */,
+				989E5E9F1E5BA8160035F33D /* cleanup.eg */,
+				989E5EA01E5BA8160035F33D /* cleanup.eg.com */,
+				989E5EA11E5BA8160035F33D /* cleanup.rulz */,
+				989E5EA21E5BA8160035F33D /* data0.in */,
+				989E5EA31E5BA8160035F33D /* data1.in */,
+				989E5EA41E5BA8160035F33D /* data2.in */,
+				989E5EA51E5BA8160035F33D /* data3.in */,
+				989E5EA61E5BA8160035F33D /* data4.in */,
+				989E5EA71E5BA8160035F33D /* data5.in */,
+				989E5EA81E5BA8160035F33D /* data6.in */,
 			);
 			path = "FSU Wordsmith";
+			sourceTree = "<group>";
+		};
+		989E5EAB1E5BA83D0035F33D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				989E5EB01E5BA8900035F33D /* ansicodes.h */,
+				989E5EB11E5BA8900035F33D /* CHAR.h */,
+				989E5EB21E5BA8900035F33D /* compare.h */,
+				989E5EB31E5BA8900035F33D /* debug.h */,
+				989E5EB41E5BA8900035F33D /* deque.cpp */,
+				989E5EB51E5BA8900035F33D /* deque.h */,
+				989E5EB61E5BA8900035F33D /* entry.h */,
+				989E5EB71E5BA8900035F33D /* fdeque.cpp */,
+				989E5EB81E5BA8900035F33D /* fgss.cpp */,
+				989E5EB91E5BA8900035F33D /* finteger.cpp */,
+				989E5EBA1E5BA8900035F33D /* flist.cpp */,
+				989E5EBB1E5BA8900035F33D /* flist2c.cpp */,
+				989E5EBC1E5BA8900035F33D /* fqueue.cpp */,
+				989E5EBD1E5BA8900035F33D /* fstack.cpp */,
+				989E5EBE1E5BA8900035F33D /* ftimer.cpp */,
+				989E5EBF1E5BA8900035F33D /* fvector.cpp */,
+				989E5EC01E5BA8900035F33D /* gbsearch.h */,
+				989E5EC11E5BA8900035F33D /* genalg.h */,
+				989E5EC21E5BA8900035F33D /* gheap.h */,
+				989E5EC31E5BA8900035F33D /* gsort.h */,
+				989E5EC41E5BA8900035F33D /* insert.h */,
+				989E5EC51E5BA8900035F33D /* integer.cpp */,
+				989E5EC61E5BA8900035F33D /* integer.h */,
+				989E5EC71E5BA8900035F33D /* iostream.txt */,
+				989E5EC81E5BA8900035F33D /* list_macro.cpp */,
+				989E5EC91E5BA8900035F33D /* list_sort.cpp */,
+				989E5ECA1E5BA8900035F33D /* list.cpp */,
+				989E5ECB1E5BA8900035F33D /* list.h */,
+				989E5ECC1E5BA8900035F33D /* list2c_macro.cpp */,
+				989E5ECD1E5BA8900035F33D /* mlist.cpp */,
+				989E5ECE1E5BA8900035F33D /* mlist2c.cpp */,
+				989E5ECF1E5BA8900035F33D /* olist.h */,
+				989E5ED01E5BA8900035F33D /* ovector.h */,
+				989E5ED11E5BA8900035F33D /* pair.h */,
+				989E5ED21E5BA8900035F33D /* queue.h */,
+				989E5ED31E5BA8900035F33D /* rbsearch.h */,
+				989E5ED41E5BA8900035F33D /* README */,
+				989E5ED51E5BA8900035F33D /* require.h */,
+				989E5ED61E5BA8900035F33D /* stack.h */,
+				989E5ED71E5BA8900035F33D /* timer.cpp */,
+				989E5ED81E5BA8900035F33D /* timer.h */,
+				989E5ED91E5BA8900035F33D /* vector.cpp */,
+				989E5EDA1E5BA8900035F33D /* vector.h */,
+				989E5EDB1E5BA8900035F33D /* xran.cpp */,
+				989E5EDC1E5BA8900035F33D /* xran.h */,
+				989E5EDD1E5BA8900035F33D /* xranxstr.cpp */,
+				989E5EDE1E5BA8900035F33D /* xranxstr.h */,
+				989E5EDF1E5BA8900035F33D /* xstring.cpp */,
+				989E5EE01E5BA8900035F33D /* xstring.h */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989E5EAA1E5BA8160035F33D /* main_ws.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +307,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_CPLUSPLUSFLAGS = "-I.$(PROJECT_DIR)";
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -203,7 +348,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_CPLUSPLUSFLAGS = "-I.$(PROJECT_DIR)";
+				OTHER_CPLUSPLUSFLAGS = "-I$(PROJECT_DIR)";
 				SDKROOT = macosx;
 			};
 			name = Release;
