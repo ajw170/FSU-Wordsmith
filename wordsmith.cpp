@@ -30,7 +30,7 @@ bool WordSmith::ReadText (const fsu::String& infile, bool showProgress)
         return 0; //return 0, indicating file could not be read
     }
     
-    const unsigned long tickerVal = 0xFFFF;
+    const unsigned long tickerVal = 65536;
     fsu::String wordString;
     size_t wordCounter = 0;
     
@@ -186,3 +186,5 @@ size_t WordSmith::VocabSize() const
 {
     return wordset_.Size(); //returns size of wordset
 }
+
+#include <cleanup.cpp> //logically include cleanup.cpp here

@@ -9,6 +9,8 @@ word                 frequency
 123,456,789                  4
 123::321                     4
 123::eee                     4
+::123                        4
+::abc                        4
 \nested                      1
 aa                           4
 aaa-bbb                      4
@@ -29,5 +31,5 @@ jj                           4
 law.com                      4
 output                       4
 
-Number of words: 101
-Vocabulary size: 26
+Number of words: 109
+Vocabulary size: 28

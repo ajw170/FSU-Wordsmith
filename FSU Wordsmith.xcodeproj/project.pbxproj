@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		989E5EAA1E5BA8160035F33D /* main_ws.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 989E5EA91E5BA8160035F33D /* main_ws.cpp */; };
-		989E5EE81E5BF5F40035F33D /* wordsmith.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 989E5EE11E5BA8D10035F33D /* wordsmith.cpp */; };
-		989E5EE91E5BF5F40035F33D /* cleanup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 989E5EE41E5BED120035F33D /* cleanup.cpp */; };
 		989E5EEA1E5BF7010035F33D /* xstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 989E5EDF1E5BA8900035F33D /* xstring.cpp */; };
+		98D347281E5E0AF5008C6360 /* wordsmith.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 989E5EE11E5BA8D10035F33D /* wordsmith.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -268,9 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D347281E5E0AF5008C6360 /* wordsmith.cpp in Sources */,
 				989E5EEA1E5BF7010035F33D /* xstring.cpp in Sources */,
-				989E5EE81E5BF5F40035F33D /* wordsmith.cpp in Sources */,
-				989E5EE91E5BF5F40035F33D /* cleanup.cpp in Sources */,
 				989E5EAA1E5BA8160035F33D /* main_ws.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
