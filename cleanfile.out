@@ -1,0 +1,16 @@
+Text Analysis for files: cleanfile.in, cleanfile.in, cleanfile.in
+
+word                 frequency
+----                 ---------
+brown                        3
+dog                          3
+fox                          3
+hi                           3
+jumps                        3
+lazy                         3
+over                         3
+quick                        3
+the                         30
+
+Number of words: 54
+Vocabulary size: 9

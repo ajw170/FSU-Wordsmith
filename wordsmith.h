@@ -33,13 +33,14 @@ public:
     bool ReadText       (const fsu::String& infile, bool showProgress = 0); //read file contents
     bool WriteReport    (const fsu::String& outfile, unsigned short c1 = 15, unsigned short c2 = 15) const;
     void ShowSummary    () const;
-    void ClearData      () const;
+    void ClearData      ();
     
 private:
     
     //internal class terminology
     typedef fsu::Pair < fsu::String, unsigned long >    EntryType;
     typedef fsu::LessThan < EntryType >                 PredicateType;
+    typedef fsu::List < fsu::String >                   ListType;
     
     //associate container classes for SetType - choose one
     
@@ -50,9 +51,12 @@ private:
     //typedef fsu::RBLLT < EntryType, PredicateType >     SetType;
     
     SetType                     wordset_; //specified set
-    fsu::List < fsu::String >   infiles_; //list of file names
+    ListType                    infiles_; //list of file names
     
     static void Cleanup (fsu::String&); //removes invalid characters from string
+    
+    size_t WordsRead() const; //outputs word count (non-unique)
+    size_t VocabSize() const; //outputs size of vocabulary (unique)
     
     // copy constructor and assignment operator - not implemented
     WordSmith (const WordSmith &);

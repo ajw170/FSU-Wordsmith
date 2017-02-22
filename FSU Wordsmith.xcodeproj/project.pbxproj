@@ -26,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		985BBD071E5CDCC30073F943 /* cleanfile.in */ = {isa = PBXFileReference; lastKnownFileType = text; name = cleanfile.in; path = ../cleanfile.in; sourceTree = "<group>"; };
+		985BBD081E5D15170073F943 /* cleanfile.out */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanfile.out; path = ../cleanfile.out; sourceTree = "<group>"; };
+		985BBD091E5D1BB30073F943 /* datamassive.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = datamassive.in; path = ../datamassive.in; sourceTree = "<group>"; };
 		989E5E951E5BA3560035F33D /* FSU Wordsmith */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Wordsmith"; sourceTree = BUILT_PRODUCTS_DIR; };
 		989E5E9F1E5BA8160035F33D /* cleanup.eg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanup.eg; path = ../cleanup.eg; sourceTree = "<group>"; };
 		989E5EA01E5BA8160035F33D /* cleanup.eg.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanup.eg.com; path = ../cleanup.eg.com; sourceTree = "<group>"; };
@@ -38,10 +41,6 @@
 		989E5EA71E5BA8160035F33D /* data5.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data5.in; path = ../data5.in; sourceTree = "<group>"; };
 		989E5EA81E5BA8160035F33D /* data6.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data6.in; path = ../data6.in; sourceTree = "<group>"; };
 		989E5EA91E5BA8160035F33D /* main_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main_ws.cpp; path = ../main_ws.cpp; sourceTree = "<group>"; };
-		989E5EAC1E5BA86C0035F33D /* table1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = table1; path = ../table1; sourceTree = "<group>"; };
-		989E5EAD1E5BA86C0035F33D /* table2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = table2; path = ../table2; sourceTree = "<group>"; };
-		989E5EAE1E5BA86C0035F33D /* table3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = table3; path = ../table3; sourceTree = "<group>"; };
-		989E5EAF1E5BA86C0035F33D /* table4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = table4; path = ../table4; sourceTree = "<group>"; };
 		989E5EB01E5BA8900035F33D /* ansicodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ansicodes.h; sourceTree = "<group>"; };
 		989E5EB11E5BA8900035F33D /* CHAR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAR.h; sourceTree = "<group>"; };
 		989E5EB21E5BA8900035F33D /* compare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
@@ -93,7 +92,6 @@
 		989E5EE01E5BA8900035F33D /* xstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xstring.h; sourceTree = "<group>"; };
 		989E5EE11E5BA8D10035F33D /* wordsmith.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = wordsmith.cpp; path = ../wordsmith.cpp; sourceTree = "<group>"; };
 		989E5EE21E5BA8D10035F33D /* wordsmith.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wordsmith.h; path = ../wordsmith.h; sourceTree = "<group>"; };
-		989E5EE31E5BD5100035F33D /* datamassive.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = datamassive.in; path = ../datamassive.in; sourceTree = "<group>"; };
 		989E5EE41E5BED120035F33D /* cleanup.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = cleanup.cpp; path = ../cleanup.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -129,14 +127,13 @@
 		989E5E971E5BA3560035F33D /* FSU Wordsmith */ = {
 			isa = PBXGroup;
 			children = (
+				985BBD091E5D1BB30073F943 /* datamassive.in */,
+				985BBD071E5CDCC30073F943 /* cleanfile.in */,
+				985BBD081E5D15170073F943 /* cleanfile.out */,
 				989E5EE11E5BA8D10035F33D /* wordsmith.cpp */,
 				989E5EE41E5BED120035F33D /* cleanup.cpp */,
 				989E5EE21E5BA8D10035F33D /* wordsmith.h */,
 				989E5EA91E5BA8160035F33D /* main_ws.cpp */,
-				989E5EAC1E5BA86C0035F33D /* table1 */,
-				989E5EAD1E5BA86C0035F33D /* table2 */,
-				989E5EAE1E5BA86C0035F33D /* table3 */,
-				989E5EAF1E5BA86C0035F33D /* table4 */,
 				989E5E9F1E5BA8160035F33D /* cleanup.eg */,
 				989E5EA01E5BA8160035F33D /* cleanup.eg.com */,
 				989E5EA11E5BA8160035F33D /* cleanup.rulz */,
@@ -147,7 +144,6 @@
 				989E5EA61E5BA8160035F33D /* data4.in */,
 				989E5EA71E5BA8160035F33D /* data5.in */,
 				989E5EA81E5BA8160035F33D /* data6.in */,
-				989E5EE31E5BD5100035F33D /* datamassive.in */,
 			);
 			path = "FSU Wordsmith";
 			sourceTree = "<group>";
@@ -404,6 +400,7 @@
 				989E5E9E1E5BA3560035F33D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
