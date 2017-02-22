@@ -44,14 +44,16 @@ void WordSmith::Cleanup(fsu::String &s)
     size_t n = 0; //set value to 0 to start
     fsu::String cleanedString; //declare cleanString
     
-    //skip leading junk loop
-    while
-        
-        (!(
-    s.Element(n) == '\0' || isalpha(s.Element(n)) || isdigit(s.Element(n)) || s.Element(n) == '\\' ||
-    (s.Element(n) == '-' && isdigit(s.Element(n+1))) || (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n+2)))
-         )
-        && (n < length))
+    //skip leading junk loop - checks for leading character conditions
+    while (
+           !(s.Element(n) == '\0' ||
+             isalpha(s.Element(n)) ||
+             isdigit(s.Element(n)) ||
+             s.Element(n) == '\\' ||
+             (s.Element(n) == '-' && isdigit(s.Element(n+1))) ||
+             (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n+2)))
+            ) && (n < length)
+          ) // end condition check
     {
         ++n; //iterate through junk characters
     }
@@ -60,7 +62,6 @@ void WordSmith::Cleanup(fsu::String &s)
     //now, decide whether to keep each character, if yes add to cleanString
     
     while (
-           
            (
             isalnum(s.Element(n)) ||
             (s.Element(n) == '\\' && isalnum(s.Element(n+1))) ||
@@ -70,24 +71,17 @@ void WordSmith::Cleanup(fsu::String &s)
             (s.Element(n) == ',' && isdigit(s.Element(n-1)) && isdigit(s.Element(n+1))) ||
             (s.Element(n) == ':' && isdigit(s.Element(n-1)) && isdigit(s.Element(n+1))) ||
             (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n-1)) && isalnum(s.Element(n+2))) ||
-            (s.Element(n) == ':' && s.Element(n-1) == ':' && isalnum(s.Element(n-2)) && isalnum(s.Element(n+1)))
-           
-           || (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n+2)))
-           || (s.Element(n) == ':' && s.Element(n-1) == ':' && isalnum(s.Element(n+1)))
-           
-            )
-           
-           && (n < length)
-            
-           ) // end condition check
-        
+            (s.Element(n) == ':' && s.Element(n-1) == ':' && isalnum(s.Element(n-2)) && isalnum(s.Element(n+1))) ||
+            (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n+2))) ||  //note -- added to match ws_i.x
+            (s.Element(n) == ':' && s.Element(n-1) == ':' && isalnum(s.Element(n+1)))   //note -- added to match ws_i.x
+           ) && (n < length)
+          ) // end condition check
     {
         newCharString[charArrayIndex] = tolower(s.Element(n));
         ++charArrayIndex;
         ++n; //increment n
     }
     
-    newCharString[charArrayIndex] = '\0';
-    s.Wrap(newCharString);
-    
+    newCharString[charArrayIndex] = '\0'; //add null character to last space
+    s.Wrap(newCharString); //create string from character array
 }

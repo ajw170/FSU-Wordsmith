@@ -54,9 +54,7 @@ bool WordSmith::ReadText (const fsu::String& infile, bool showProgress)
         }
         else //the pair already exists, "wordPair" is now the referenced Pair
         {
-            unsigned long numEntries;
-            numEntries = ++(wordPair.second_);
-            EntryType wordPair(wordString, numEntries); //redeclare wordPair with updated count
+            ++(wordPair.second_);
             wordset_.Insert(wordPair); //unimodal container does not allow duplicates; will replace
         }
         

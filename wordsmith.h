@@ -44,9 +44,9 @@ private:
     
     //associate container classes for SetType - choose one
     
-    //typedef fsu::UOList < EntryType, PredicateType >    SetType;
+    typedef fsu::UOList < EntryType, PredicateType >    SetType;
     //typedef fsu::MOList < EntryType, PredicateType >    SetType;
-    typedef fsu::UOVector < EntryType, PredicateType >  SetType;
+    //typedef fsu::UOVector < EntryType, PredicateType >  SetType;
     //typedef fsu::MOVector < EntryType, PredicateType >  SetType;
     //typedef fsu::RBLLT < EntryType, PredicateType >     SetType;
     
