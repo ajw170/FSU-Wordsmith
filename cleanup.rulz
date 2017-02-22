@@ -19,4 +19,4 @@ acceptance: after skipping leading junk,
    ch is period     and next char is a letter or digit
    ch is comma      and is surrounded by digits
    ch is colon      and is surrounded by digits
-   ch is the first or second of a pair of colons, the pair surrounded by letters or digits
+   ch is the first or second of a pair of colons, the pair surrounded by letters or digits (flanked on the right)?

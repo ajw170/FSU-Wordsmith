@@ -36,9 +36,10 @@ bool WordSmith::ReadText (const fsu::String& infile, bool showProgress)
     
     while (inClientFile >> wordString) //read words from file separated by whitespace, continue until EOF
     {
-        //std::cout << "\n\n" << wordPair << "\n\n";
-        
         WordSmith::Cleanup(wordString); //cleans up the string as per rules
+        
+        if (wordString.Length() == 0) //if cleanup operation resulted in 0-length word
+            continue; //skip and restart loop
         
         EntryType wordPair(wordString,1); //declares Pair containing string
         
@@ -135,7 +136,7 @@ bool WordSmith::WriteReport (const fsu::String& outfile, unsigned short c1, unsi
     //once file is finished, output summary
     outClientFile << "\n";
     outClientFile << "Number of words: " << numWords << "\n";
-    outClientFile << "Vocabulary size: " << vocabSize;
+    outClientFile << "Vocabulary size: " << vocabSize << "\n";
     
     outClientFile.close(); //close the file
     
