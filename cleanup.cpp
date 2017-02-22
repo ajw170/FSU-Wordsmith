@@ -69,11 +69,11 @@ void WordSmith::Cleanup(fsu::String &s)
             (s.Element(n) == '-' && isalnum(s.Element(n+1)))  ||
             (s.Element(n) == '.'&& isalnum(s.Element(n+1)))   ||
             (s.Element(n) == ',' && isdigit(s.Element(n-1)) && isdigit(s.Element(n+1))) ||
-            (s.Element(n) == ':' && isdigit(s.Element(n-1)) && isdigit(s.Element(n+1))) ||
-            (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n-1)) && isalnum(s.Element(n+2))) ||
-            (s.Element(n) == ':' && s.Element(n-1) == ':' && isalnum(s.Element(n-2)) && isalnum(s.Element(n+1))) ||
-            (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n+2))) ||  //note -- added to match ws_i.x
-            (s.Element(n) == ':' && s.Element(n-1) == ':' && isalnum(s.Element(n+1)))   //note -- added to match ws_i.x
+            (s.Element(n) == ':' && isdigit(s.Element(n-1)) && isdigit(s.Element(n+1))) || //colon surrounded by digits
+            (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n-1)) && isalnum(s.Element(n+2))) || //first colon in pair, surrounded by letters or digits
+            (s.Element(n) == ':' && s.Element(n-1) == ':' && isalnum(s.Element(n-2)) && isalnum(s.Element(n+1))) || //second colon in pair, surrounded by letters or digits
+            (s.Element(n) == ':' && s.Element(n+1) == ':' && isalnum(s.Element(n+2))) ||  //first colon in leading pair (special case)
+            (s.Element(n) == ':' && s.Element(n-1) == ':' && isalnum(s.Element(n+1)))   //second colon in leading pair, character after is char or digit
            ) && (n < length)
           ) // end condition check
     {
