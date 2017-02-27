@@ -30,7 +30,6 @@
 		985BBD0A1E5D1C810073F943 /* cleanfile.in */ = {isa = PBXFileReference; lastKnownFileType = text; name = cleanfile.in; path = ../cleanfile.in; sourceTree = "<group>"; };
 		985BBD0B1E5D3E5D0073F943 /* cleanup.eg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanup.eg; path = ../cleanup.eg; sourceTree = "<group>"; };
 		989E5E951E5BA3560035F33D /* FSU Wordsmith */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FSU Wordsmith"; sourceTree = BUILT_PRODUCTS_DIR; };
-		989E5EA01E5BA8160035F33D /* cleanup.eg.com */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanup.eg.com; path = ../cleanup.eg.com; sourceTree = "<group>"; };
 		989E5EA11E5BA8160035F33D /* cleanup.rulz */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cleanup.rulz; path = ../cleanup.rulz; sourceTree = "<group>"; };
 		989E5EA21E5BA8160035F33D /* data0.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data0.in; path = ../data0.in; sourceTree = "<group>"; };
 		989E5EA31E5BA8160035F33D /* data1.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data1.in; path = ../data1.in; sourceTree = "<group>"; };
@@ -134,7 +133,6 @@
 				989E5EE41E5BED120035F33D /* cleanup.cpp */,
 				989E5EE21E5BA8D10035F33D /* wordsmith.h */,
 				989E5EA91E5BA8160035F33D /* main_ws.cpp */,
-				989E5EA01E5BA8160035F33D /* cleanup.eg.com */,
 				989E5EA11E5BA8160035F33D /* cleanup.rulz */,
 				989E5EA21E5BA8160035F33D /* data0.in */,
 				989E5EA31E5BA8160035F33D /* data1.in */,
